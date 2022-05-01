@@ -1,0 +1,27 @@
+{
+  "name": "dsa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
+    "watch": "jest --watchAll --coverage --verbose",
+    "test": "jest --coverage --verbose",
+    "jsdoc": "jsdoc -c .docs/config/jsdoc.config.json"
+  },
+  "author": "Aaron Ferris",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^5.16.0",
+    "jsdoc": "^3.6.10",
+    "lint": "^1.1.2",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "babel-jest": "^28.0.3",
+    "jest": "^24.9.0"
+  }
+}
