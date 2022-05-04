@@ -14,6 +14,4 @@ function errorHelper(i){
 }
 
 module.exports = {
-  example,
-  errorHelper
-};
+  example,errorHelper};
