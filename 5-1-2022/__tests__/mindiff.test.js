@@ -55,7 +55,6 @@ describe('minDiffFunction Function', () => {
   });
   it('Will process a random array an invalid array', () => {
     expect(typeof(minDiffFunction(randomArray))).toEqual('number')
-    console.log(randomArray,minDiffFunction(randomArray))
   });
 
  it('Will handle an imporper input', () => {

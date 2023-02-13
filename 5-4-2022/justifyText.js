@@ -12,7 +12,6 @@ function justifyText(words,maxLength){
     if (line.length==0){
       line.push(words[i]);
       i++;
-      console.log(line,i)
     } else if (i==words.length || lineLength(line)+words[i].length+1 > maxLength){
 
       //if we have reached max capacity
@@ -77,4 +76,3 @@ module.exports = {
   justifyText,errorHelper};
 
 
-console.log(justifyText(["the", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog"], 16))

@@ -30,7 +30,6 @@ function errorHandler(value){
   return true
 }
 
-console.log(minCoins(null))
 
 module.exports = {
   minCoins,errorHandler
