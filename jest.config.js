@@ -1,8 +1,8 @@
 module.exports = {
   verbose: true,
   testMatch: [
-    '<rootDir>/**/*.test.js',
-    '<rootDir>/**/*.test.jsx',
+    '<rootDir>/challenges/**/*.test.js',
+    '<rootDir>/challenges/**/*.test.jsx',
   ],
   silent: false,
 };
